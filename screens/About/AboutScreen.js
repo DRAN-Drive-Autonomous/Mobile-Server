@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, StyleSheet, Image, Linking } from 'react-native';
-import {ThemeContext} from '../assets/styles/global';
+import {ThemeContext} from '../../assets/styles/global';
 import { useContext } from 'react';
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -10,7 +10,7 @@ import Octicons from 'react-native-vector-icons/Octicons';
 function AboutScreen({ navigation }) {
     const themeContext = useContext(ThemeContext);
     const globalStyles = themeContext.globalStyles;
-    const sourceUrl = require('../assets/json/SettingsData.json').sourceCode;
+    const sourceUrl = require('../../assets/json/AboutData.json').sourceCode;
     return (
         <View style={globalStyles.container}>
             <View style={styles.headerBox}>
@@ -66,8 +66,10 @@ const styles = StyleSheet.create({
     },
 
     logo:{
-        width:150,
-        height:150,
+        marginTop:50,
+        marginBottom:10,
+        width:100,
+        height:100,
     },
 
     appName:{

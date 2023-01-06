@@ -9,7 +9,7 @@ function DevelopersScreen({ navigation }) {
     const themeContext = useContext(ThemeContext);
     const globalStyles = themeContext.globalStyles;
 
-    const settingsData = require('../assets/json/SettingsData.json');
+    const settingsData = require('../assets/json/AboutData.json');
     const developersData = settingsData.developers;
 
     const Item = ({ item }) => (

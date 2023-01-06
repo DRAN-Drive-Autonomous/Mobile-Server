@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View, Text, StyleSheet, Image, Button, FlatList } from 'react-native';
-import {ThemeContext} from '../assets/styles/global';
-import RadioButton from '../components/RadioButton';
+import {ThemeContext} from '../../assets/styles/global';
+import RadioButton from '../../components/RadioButton';
 import { useState, useContext } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

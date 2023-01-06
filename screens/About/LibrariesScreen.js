@@ -8,7 +8,7 @@ function LibrariesScreen({ navigation }) {
     const themeContext = useContext(ThemeContext);
     const globalStyles = themeContext.globalStyles;
 
-    const settingsData = require('../assets/json/SettingsData.json');
+    const settingsData = require('../assets/json/AboutData.json');
     const mobileData = settingsData.libraries.mobile;
     const clientData = settingsData.libraries.client;
     const serverData = settingsData.libraries.server;
