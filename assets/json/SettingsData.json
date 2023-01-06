@@ -1,0 +1,36 @@
+{
+    "sourceCode":"https://github.com/TusharJ3011",
+    "libraries":{
+        "mobile":[
+            {"name": "react", "version": "18.1.0", "license":""},
+            {"name": "react-native", "version": "0.70.0", "license":""},
+            {"name": "react-native-async-storage/async-storage", "version": "1.17.10", "license":""},
+            {"name": "react-native-masked-view/masked-view", "version": "0.2.7", "license":""},
+            {"name": "react-navigation/bottom-tabs", "version": "6.3.3", "license":""},
+            {"name": "react-navigation/native", "version": "6.0.12", "license":""},
+            {"name": "react-navigation/stack", "version": "16.2.3", "license":""},
+            {"name": "react-native-gesture-handler", "version": "2.6.0", "license":""},
+            {"name": "react-native-reanimated", "version": "2.10.0", "license":""},
+            {"name": "react-native-safe-area-context", "version": "4.3.3", "license":""},
+            {"name": "react-native-screens", "version": "3.17.0", "license":""},
+            {"name": "react-native-splash-screen", "version": "3.3.0", "license":""},
+            {"name": "react-native-vector-icons", "version": "9.2.0", "license":""}
+        ],
+        "client":[
+            {"name":"Python", "version":"3.10.0", "license":""},
+            {"name":"Tkinter", "version":"8.5.0", "license":""},
+            {"name":"OpenCV", "version":"4.6.0", "license":""},
+            {"name":"Numpy", "version":"1.23.3", "license":""}
+        ],
+        "server":[
+            {"name":"Java-SDK", "version":"1.8.0", "license":""},
+            {"name":"Apache Maven", "version":"3.8.6", "license":""},
+            {"name":"Miglayout Swing", "version":"11.0.0", "license":""}
+        ],
+        "api":[],
+        "networks":[]
+    },
+    "developers":[
+        {"devid":"drancore01", "devname":"Tushar Jain", "email":"mailto:jtushar3011@gmail.com", "emailplaceholder":"Tushar Jain", "secondaryemail":"mailto:20ucs211@lnmiit.ac.in", "secondaryemailplaceholder":"TUSHAR JAIN (Institute)", "linkedin":"https://www.linkedin.com/in/tushar-jain-9b2359201", "linkedinplaceholder":"Tushar Jain", "github":"https://github.com/TusharJ3011", "githubplaceholder":"TusharJ3011", "instagram":"https://www.instagram.com/tusharj_3011/", "instagramplaceholder":"tusharj_3011", "facebook":"https://www.facebook.com/profile.php?id=100012995471277", "facebookplaceholder":"Tushar Jain", "workdone":"Core Developer", "imageurl":"https://drive.google.com/file/d/1SY3PFqQVWqx1kKi_qk1nWnXJxzqncpDg/view?usp=sharing"}
+    ]
+}
